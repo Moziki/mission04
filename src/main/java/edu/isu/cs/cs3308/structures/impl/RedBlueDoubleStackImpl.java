@@ -1,7 +1,10 @@
 package edu.isu.cs.cs3308.structures.impl;
 
 import edu.isu.cs.cs3308.structures.RedBlueDoubleStack;
-
+//Dan Walker
+//CS3308
+//Mission04
+// 2/9/2019
 public class RedBlueDoubleStackImpl<E> implements RedBlueDoubleStack<E> {
     LinkedStack<E> red;
     LinkedStack<E> blue;

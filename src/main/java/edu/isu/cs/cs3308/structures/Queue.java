@@ -1,5 +1,8 @@
 package edu.isu.cs.cs3308.structures;
-
+//Dan Walker
+//CS3308
+//Mission04
+// 2/9/2019
 /**
  * An interface for a Queue ADT
  *

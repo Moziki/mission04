@@ -1,12 +1,15 @@
 package edu.isu.cs.cs3308.structures.impl;
 
 import edu.isu.cs.cs3308.structures.Stack;
-
+//Dan Walker
+//CS3308
+//Mission04
+// 2/9/2019
 public class LinkedStack<E> implements Stack<E> {
     DoublyLinkedList<E> data;
 
-    //CONSTRUCTOR
-    //creates a new DoublyLinkedList as the data variable
+
+
     public LinkedStack() { data = new DoublyLinkedList<>(); }
 
     @Override
@@ -71,8 +74,6 @@ public class LinkedStack<E> implements Stack<E> {
             LinkedStack<E> temp = new LinkedStack();
             LinkedStack<E> temp2 = new LinkedStack();
 
-            //paramSize & thisSize -to make sure method still works if stacks are
-            //different sizes
             int paramSize = other.size();
             int thisSize = this.size();
             //moves nodes of called on stack to temp stack

@@ -3,7 +3,10 @@ package edu.isu.cs.cs3308;
 import edu.isu.cs.cs3308.structures.Deque;
 import edu.isu.cs.cs3308.structures.Stack;
 import edu.isu.cs.cs3308.structures.impl.LinkedDeque;
-
+//Dan Walker
+//CS3308
+//Mission04
+// 2/9/2019
 /**
  *
  * @author Isaac Griffith
@@ -19,7 +22,9 @@ public class DequeStackMerge {
      * @param into Stack into which the other stack will be merged
      * @param from Stack which is merged into the bottom of the other stack.
      */
+    //NOTE: Confused, it says to work with stacks instead of Deques? I implemented one using stacks until
+    //I checked this method header and the ReadMe
     public static <E> void dequeStackMerge(final Stack<E> into, Stack<E> from) {
-        throw new UnsupportedOperationException("Not Yet Implemented");
+        into.merge(from);
     }
 }

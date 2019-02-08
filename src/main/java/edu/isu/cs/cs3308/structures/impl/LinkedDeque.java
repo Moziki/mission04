@@ -2,7 +2,10 @@ package edu.isu.cs.cs3308.structures.impl;
 
 import edu.isu.cs.cs3308.structures.Deque;
 import edu.isu.cs.cs3308.structures.Queue;
-
+//Dan Walker
+//CS3308
+//Mission04
+// 2/9/2019
 public class LinkedDeque<E> implements Deque<E> {
     DoublyLinkedList<E> data;
 

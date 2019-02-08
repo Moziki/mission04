@@ -1,5 +1,9 @@
 package edu.isu.cs.cs3308.structures;
 
+//Dan Walker
+//CS3308
+//Mission04
+// 2/9/2019
 /**
  * RedBlueDoubleStack is a Doubly Ended Stack that has two colors representing the
  * ends. Red is the top of the DeStack and Blue is the Bottom.

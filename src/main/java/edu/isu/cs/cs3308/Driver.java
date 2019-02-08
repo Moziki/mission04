@@ -10,6 +10,7 @@ import edu.isu.cs.cs3308.structures.RedBlueDoubleStack;
 /**
  *
  * @author Isaac Griffith
+ * @author Dan Walker (line #81 - #100)
  */
 public class Driver {
 
@@ -76,6 +77,27 @@ public class Driver {
 
         System.out.println("Red Peek: " + redBlue.peekRed());
         System.out.println("Blue Peek: " + redBlue.peekBlue());
+
+        LinkedStack<String> check1 = new LinkedStack<>();
+        LinkedStack<String> check2 = new LinkedStack<>();
+        int i;
+        for (i = 5; i > 0; i-- ) {
+            check1.push(String.valueOf(i));
+        }
+        check2.push("e");
+        check2.push("d");
+        check2.push("c");
+        check2.push("b");
+        check2.push("a");
+
+
+        DequeStackMerge.dequeStackMerge(check1, check2);
+        int marker = check1.size();
+        for (int y = 0; y < marker; y++) {
+            System.out.println(check1.pop());
+        }
+        System.out.println ("The size of check1 was " + marker);
     }
+
 
 }
